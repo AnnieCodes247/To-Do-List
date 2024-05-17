@@ -1,10 +1,13 @@
 {
-  "name": "todo_list_application__coding_with_Annie",
+  "name": "todo_list_application__coding_with_annie",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin":"index.js",
+  "publishconfig" : {
+    "access" : "public",
+    "bin" : "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
